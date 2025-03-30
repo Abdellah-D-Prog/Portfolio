@@ -24,7 +24,7 @@ Ce portfolio dynamique est conçu pour montrer mes compétences en tant que dév
 
 1. Clonez le repository sur votre machine :
    ```bash
-   git clone git@github.com:EpitechWebAcademiePromo2026/W-WEB-090-LIL-1-1-Portfolio-abdellah1.djezzar.git
+   git clone git@github.com:Abdellah-D-Prog/Portfolio.git
 ## Site Déployé
 
 Vous pouvez accèder à mon site via le lien suivant:
