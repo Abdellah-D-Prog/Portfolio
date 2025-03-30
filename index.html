@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/png" href="assets/img/icon.PNG">
+      <title>Portfolio-Abdellah Djezzar</title>
+      <link rel="stylesheet" href="assets/styles/style.css">
+      <link rel="stylesheet" href="assets/styles/tablet.css" media="(min-width: 481px) and (max-width: 1024px)">
+      <!---Format Tablette-->
+      <link rel="stylesheet" href="assets/styles/mobile.css" media="(max-width: 480px)">
+      <!--Format Mobile-->
+   </head>
+   <body>
+      <!--Le chargement de la page-->
+      <div id="loader">
+         <img src="assets/img/spindash.gif" alt="loading gif"/>
+         <p id="loading-text">CHARGEMENT</p>
+      </div>
+      <div id="content">
+         <!--La navbar-->
+         <nav class="navbar" id="navbar">
+            <!--Le menu burger pour la responsive-->
+            <div id="burger-menu">☰</div>
+            <div id="nav-links">
+               <a href="#content" class="nav-list">Accueil</a>
+               <a href="#about-me" class="nav-list">À propos de moi</a>
+               <a href="#project-block" class="nav-list">Mes projets</a>
+               <a href="#technology" class="nav-list">Mes technologies</a>
+               <a href="#contact" class="nav-list">Contactez-moi</a>
+            </div>
+         </nav>
+         <!--Présentation-->
+         <div id="presentation">
+            <img src="assets/img/Presentation-first.PNG" alt="Pixel art image" id="presentation-pixelart">
+            <div id="presentation-text">
+               <h1>ABDELLAH DJEZZAR</h1>
+               <h2>DEVELOPPEUR WEB</h2>
+            </div>
+            <img src="assets/img/photoprofile.jpeg" alt="Profile photo" id="presentation-profilepicture">
+         </div>
+      </div>
+      <!--À propos de moi-->
+      <div id="about-me">
+         <div id="about-me-text">
+            <h3>À propos de moi</h3>
+            <p>
+               À 26 ans,je suis actuellement étudiant à l'école Epitech dans la formation Web@cademie.Mon object est de pouvoir travailler
+               dans le domaine du développement web pour créer des applications/sites web innovantes et performantes.<br>
+               J'ai toujours aimé créer depuis ma plus tendre enfance,je me suis pris pour passion le dessin en pixel art,le story-boarding,l'animation etc...<br>
+               Puis par la suite au développement web,J'aime découvrir de nouvelle manière et technologies qui me permettent de créer.<br>
+               Le développement web me permet de laisser libre court à mon imagination et créer des sites qui me permettent de m'exercer contenuellement.
+            </p>
+         </div>
+         <img src="assets/img/photo-profile.jpg" alt="Photo Abdellah Djezzar" id="about-me-profilepicture"/>
+      </div>
+      <!--Mes projets-->
+      <!--Une carte de projet-->
+      <div id="project-block">
+         <section class="projects">
+            <h3 class="projects-title">Mes Projets</h3>
+            <div class="project-card">
+               <div class="project-content">
+                  <h4 class="project-name">Twitter Academie</h4>
+                  <p class="project-details">
+                     Projet de création d'un site web Twitter Academie pour les étudiants de l'école Epitech!<br>
+                     Ce projet a été réalise en équipe de 4 personnes en méthode MVC et en POO.(Programmation Orienté Object)
+                  </p>
+                  <a target="_blank" href="https://github.com/EpitechWebAcademiePromo2026/W-WEB-090-LIL-1-1-academie-abdellah1.djezzar" class="project-link">Voir le code source...</a>
+               </div>
+               <div class="project-image">
+                  <img src="assets/img/twitter_academie.png" alt="Img projet">
+               </div>
+            </div>
+         </section>
+         <section class="projects">
+            <div class="project-card">
+               <div class="project-content">
+                  <h4 class="project-name">Rush Wysiwyg</h4>
+                  <p class="project-details">
+                     Ce projet en équipe de 4 personnes à été réalise en 2 jours.<br>
+                     Son but était de créer un éditeur de texte En Javascript.<br>
+                     Ce projet m'a permis de comprendre et m'entrainer sur l'utilisation de Javascript et l'utilité de création de modules/plugins.
+                  </p>
+                  <a target="_blank" href="https://github.com/Abdellah-D-Prog/MYWISYGWIG" class="project-link">Voir le code source...</a>
+               </div>
+               <div class="project-image">
+                  <img src="assets/img/WYSIWYG.png" alt="Img projet">
+               </div>
+            </div>
+         </section>
+         <section class="projects">
+            <div class="project-card">
+               <div class="project-content">
+                  <h4 class="project-name">Puissance 4</h4>
+                  <p class="project-details">
+                     Le but du projet est de créer un puissance 4.
+                     Ce projet m'a permis d'approfondir mes connaissances en Javascript et travailler mon algorithmie.
+                  </p>
+                  <a target="_blank" href="https://github.com/Abdellah-D-Prog/Puissance-4" class="project-link">Voir le code source...</a>
+               </div>
+               <div class="project-image">
+                  <img src="assets/img/puissance4.png" alt="Img projet">
+               </div>
+            </div>
+         </section>
+      </div>
+      <!--La partie technologie-->
+      <div id="technology">
+         <h3>Voici les technologies maitrisées:</h3>
+         <!--Les icons des technologies-->
+         <div id="technology-icons">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" alt="Technology icon"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" alt="Technology icon"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="Technology icon"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/iconss/php/php-original.svg" alt="Technology icon"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" alt="Technology icon"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" alt="Technology icon"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original-wordmark.svg" alt="Technology icon"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain-wordmark.svg" alt="Technology icon"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" alt="Technology icon"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" alt="Technology icon"/>
+         </div>
+      </div>
+      <!--La partie contact-->
+      <div id="contact">
+         <h3>Vous voulez me contacter?</h3>
+         <div id="contact-content">
+            <div id="contact-links">
+               <a href="https://www.linkedin.com/in/abdellah-djezzar-515b4820b/" target="_blank">
+               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="LinkedIn icon"/>
+               </a>
+               <a href="https://github.com/Abdellah-D-Prog" target="_blank">
+               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" alt="GitHub Icon"/>
+               </a>
+               <a href="assets/CVAbdellah.pdf" target="_blank">
+               <img src="assets/img/cv.svg" alt="CV icon"/>
+               </a>
+            </div>
+            <form action="https://formspree.io/f/meoalrvz" method="POST" id="contact-form">
+               <h4>Contactez moi !</h4>
+               <label for="email">Email:</label>
+               <input type="email" placeholder="contact@hotmail.com" />
+               <label for="message">Message:</label>
+               <textarea name="message" placeholder="Ecrivez votre message..."></textarea>
+               <button type="submit" id="submit">Envoyer</button>
+            </form>
+         </div>
+      </div>
+      <!--Le Footer-->
+      <footer>© 2025 PortFolio-Abdellah Djezzar. Tous droits réservés.</footer>
+      <!--Le script js-->
+      <script src="assets/script.js"></script>
+   </body>
+</html>

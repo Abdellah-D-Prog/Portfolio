@@ -1,0 +1,102 @@
+ /*Navbar*/
+ nav {
+    position: relative;
+    height: 30px;
+}
+ #burger-menu {
+    display: block;
+    position: absolute;
+    top: 4%;
+    left: 40%;
+    z-index: 100;
+  }
+  #nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+  #nav-links.active {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-list {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    width: 85%;
+    text-align: center;
+  }
+/*-----------------------------------------------------------*/
+  /*Présentation*/
+  #presentation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #presentation-profilepicture {
+    margin-top: 0;
+    align-self: center;
+    margin-right: 50px;
+  }
+
+  #presentation-pixelart {
+    width: 90%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  #presentation-text {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+/*-----------------------------------------------------------*/
+/*À propos de moi*/
+#about-me {
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#about-me-text {
+  margin-top: 20px;
+  padding-right: 0;
+}
+
+#about-me-profilepicture {
+  margin-top: 20px;
+}
+/*-----------------------------------------------------------*/
+/*Mes projets*/
+.project-card {
+  flex-direction: column;
+}
+/*-----------------------------------------------------------*/
+/*Les technologies*/
+#technology-icons {
+  grid-template-columns: repeat(1,1fr);
+}
+/*-----------------------------------------------------------*/
+/*La partie Contact*/
+#contact-content {
+  flex-direction: column; 
+  align-items: center;
+  gap: 2rem; 
+}
+
+#contact-links {
+  padding-top: 2rem;
+  flex-direction: column; 
+  align-items: center;
+  gap: 4rem;
+}
+
+#contact-form {
+  width: 90%;
+}
