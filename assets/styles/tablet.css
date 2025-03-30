@@ -38,6 +38,7 @@ nav {
   flex-direction: column;
   margin-left: 0;
   align-items: center;
+  padding-top: 80px;
 }
 
 #presentation-profilepicture {
